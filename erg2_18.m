@@ -21,7 +21,7 @@ function erg2_18
     fprintf('------- NewtRaph --------\n'); newton_raphson(f,df,x0,tol,max_it);
     fprintf('\n------ NewtRaph Rec -----\n'); newton_raphson_r(x_previousnr,f,df,x0,i,tol,max_it);
 
-    x1 = 7; 
+    x1 = 7;
     fprintf('\n\n');
     fprintf('------- Secant ---------\n'); secant(f,x0,x1,tol,max_it);
     fprintf('\n------ Secant Rec ------\n'); secant_r(f,x0,x1,i,tol,max_it);
